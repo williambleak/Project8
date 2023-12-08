@@ -1,4 +1,3 @@
-
     body{
         background-color: #3edb26b6;
         color: #094001;
@@ -34,6 +33,10 @@
     .imgleft{
         float: left;
         padding-right: 20px
+    }    
+    .print{
+    height: 200px;
+    width: 50px;
     }
     table{
         width: 100%;
@@ -110,6 +113,9 @@
     article p{
         text-align: left;
     }
+    .img-container {
+        text-align: center;
+      }
     footer{
         width: 900px;
         background-color: #128600;

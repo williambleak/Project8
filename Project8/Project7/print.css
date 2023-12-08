@@ -1,6 +1,7 @@
 .print{
-    display: none;
-}
+    height: 200px;
+    width: 50px;
+    }
 body{
     background-color: white;
     color: black;
