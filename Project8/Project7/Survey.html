@@ -28,7 +28,10 @@
             <img src="Images\Banner.png" alt="Banner">
         </header>
         <section>
-            <form>
+            <h2>Community Data</h2>
+            <p>Here at Backyard Birds, we want to expand and collect data about our community to improve our company and products.</p>
+        <form>
+        <fieldset>
             <fieldset>
                 <legend>Your Information</legend>
             <ul>
@@ -48,6 +51,76 @@
                   <label for="email">Email:</label>
                   <input id="email" name="email" class="text" type="text">
                 </li> 
+             </fieldset>
+              <fieldset>
+                <legend>Crust (Choose One)</legend>
+              <ul>
+                <li>
+                  <label for="white">Classic white
+                    <input type="radio" name="crust" id="white">
+                  </label>
+                </li>
+                <li>
+                  <label for="multigrain">Multigrain
+                    <input type="radio" name="crust" id="multigrain">
+                </li>
+                <li>
+                  <label for="cheesestuffed">Cheese-stuffed crust
+                    <input type="radio" name="crust" id="cheesestuffed">
+                </li>
+                <li>
+                  <label for="glutenfree">Gluten-free
+                    <input type="radio" name="crust" id="glutenfree">
+                </li>
+              </ul>
+              </fieldset>
+              <fieldset>
+                <legend>Toppings (Choose as many as you want)</legend>
+              <ul>
+                <li>
+                  <label for="redsauce">Red sauce
+                    <input type="checkbox" name="redsauce" id="redsauce">
+                </li>
+                <li>
+                  <label for="whitesauce">White sauce
+                    <input type="checkbox" name="whitesauce" id="whitesauce">
+                </li>
+                <li>
+                  <label for="mozzarella">Mozzarella Cheese
+                    <input type="checkbox" name="mozzarella" id="mozzarella">
+                </li>
+                <li>
+                  <label for="whitesauce">Pepperoni
+                    <input type="checkbox" name="pepperoni" id="pepperoni">
+                </li>
+                <li>
+                  <label for="whitesauce">Mushrooms
+                    <input type="checkbox" name="mushrooms" id="mushrooms">
+                </li>
+                <li>
+                  <label for="whitesauce">Peppers
+                    <input type="checkbox" name="peppers" id="peppers">
+                </li>
+                <li>
+                  <label for="whitesauce">Anchovies
+                    <input type="checkbox" name="anchovies" id="anchovies">
+                </li>
+              </ul>
+              </fieldset>
+              <fieldset>
+                <legend>Number</legend>
+              <p>How many pizzas:<p>
+                <select>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                  <option>7</option>
+                  <option>8</option>
+                </select>
+              </fieldset>
             </fieldset>
             <input name="subButton" type="submit" value="Submit">
             <input name="resetButton" type="reset" value="Reset">
